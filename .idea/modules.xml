@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CustomLib.iml" filepath="$PROJECT_DIR$/.idea/CustomLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gRPCAuthProtos.iml" filepath="$PROJECT_DIR$/.idea/gRPCAuthProtos.iml" />
     </modules>
   </component>
 </project>
