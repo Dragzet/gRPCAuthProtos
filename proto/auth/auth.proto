@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "github.com/Dragzet/gRPCAuthProtos/v0.0.2;gRPCAuthProtos";
+option go_package = "github.com/Dragzet/gRPCAuthProtos;gRPCAuthProtos";
 
 service Auth{
   rpc Register (RegisterRequest) returns (RegisterResponse);
