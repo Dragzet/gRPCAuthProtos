@@ -1,4 +1,4 @@
-module github.com/Dragzet/gRPCAuthProtos
+module github.com/Dragzet/gRPCProtos
 
 go 1.23.1
 
