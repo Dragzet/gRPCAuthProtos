@@ -16,12 +16,14 @@ message Task{
   string email = 2;
   string name = 3;
   string description = 4;
+  bool done = 5;
 }
 
 message CreateTaskRequest{
   string email = 1;
   string name = 2;
   string description = 3;
+  string token = 4;
 }
 
 message CreateTaskResponse{
@@ -30,6 +32,7 @@ message CreateTaskResponse{
 
 message GetTasksRequest{
   string email = 1;
+  string token = 2;
 }
 
 message GetTasksResponse{
@@ -40,6 +43,8 @@ message UpdateTaskRequest{
   string email = 1;
   string name = 2;
   string description = 3;
+  bool done = 4;
+  string token = 5;
 }
 
 message UpdateTaskResponse{
